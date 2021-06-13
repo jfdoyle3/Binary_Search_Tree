@@ -64,9 +64,12 @@ public class Main {
         return root;
     }
 
+    public static int findNode(int value){
+        return value;
+    }
+
     //Add your Level order method here
     static void levelOrder(Node root) {
-
         // create a node queue
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
